@@ -1,5 +1,5 @@
 # pug-boilerplate
-### A simple boilerplate for small and static projects using pugjs as template engine, browserify to transpile es6 to es5 and stylus for css.
+### A simple boilerplate for small and static projects using pugjs as template engine, browserify and stylus.
 
 #### Commands
 - gulp - to initialize build the project and watch for changes
