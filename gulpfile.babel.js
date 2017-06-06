@@ -91,6 +91,7 @@ gulp.task('pug', () => {
 	return gulp.src([
 			'!' + path.join(dirs.views, 'header.pug'),
 			'!' + path.join(dirs.views, 'footer.pug'),
+			'!' + path.join(dirs.views, 'layout.pug'),
 			path.join(dirs.views, '*.pug')
 		])
 		.pipe(plumber())
